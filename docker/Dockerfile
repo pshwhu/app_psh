@@ -38,7 +38,7 @@ WORKDIR /opt
 
 CMD ["java", "-jar", "/server.jar"]
 
-FROM nginx:stable
+FROM nginx:1.29.3
 
 EXPOSE 80/tcp
 EXPOSE 443/tcp
